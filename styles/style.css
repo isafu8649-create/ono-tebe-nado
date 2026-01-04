@@ -299,44 +299,19 @@
   padding: 0 50px 90px;
 }
 
-/* Левая колонка - адрес */
-.footer .address {
-  justify-self: start;
-  font-size: 18px;
-  font-style: normal;
-  line-height: 1.35;
-}
-
-.footer .address a {
-  display: block;
-  margin-bottom: 5px;
-  border-bottom: 1px solid #000;
-  text-decoration: none;
-}
-
-.footer .address p {
-  margin-top: 5px;
-  line-height: 1.35;
-}
-
-/* Центральная колонка - меню (вертикально) */
+/* Левая колонка - меню (вертикально) */
 .footer__menu {
-  justify-self: center;
+  justify-self: start;
 }
 
 .footer__menu-list {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   gap: 12px;
   list-style: none;
   padding: 0;
   margin: 0;
-  text-align: center;
-}
-
-.footer__menu-list-item {
-  display: block;
 }
 
 .footer__menu-link {
@@ -349,6 +324,25 @@
 
 .footer__menu-link_active {
   border-bottom: none;
+}
+
+/* Центральная колонка - адрес */
+.footer .address {
+  justify-self: center;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 1.35;
+}
+
+.footer .address a {
+  border-bottom: 1px solid #000;
+  text-decoration: none;
+}
+
+.footer .address p {
+  margin-top: 5px;
+  line-height: 1.35;
 }
 
 /* Правая колонка - соцсети */
