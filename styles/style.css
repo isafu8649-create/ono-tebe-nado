@@ -165,7 +165,7 @@
   text-transform: uppercase;
 }
 
-/* СЕКЦИЯ ЛОТОВ - ИСПРАВЛЕНА! */
+/* СЕКЦИЯ ЛОТОВ */
 .lots {
   padding: 180px 50px;
 }
@@ -185,9 +185,8 @@
   margin: 0 0 30px;
 }
 
-/* ВАЖНО: 3 карточки в один ряд */
 .lots__card-list-item {
-  flex: 1; /* Равная ширина для всех карточек */
+  flex: 1;
   min-height: 450px;
 }
 
@@ -292,7 +291,7 @@
   line-height: 1.2;
 }
 
-/* ПОДВАЛ */
+/* ПОДВАЛ - ИСПРАВЛЕННЫЙ! */
 .footer {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
@@ -302,6 +301,11 @@
 
 .footer .address {
   justify-self: start;
+  line-height: 1.5;
+}
+
+.footer .address p {
+  margin-top: 5px;
 }
 
 .footer__menu {
@@ -312,11 +316,18 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
   list-style: none;
   padding: 0;
   margin: 0;
   text-align: center;
+}
+
+.footer__menu-list-item {
+  margin-bottom: 10px;
+}
+
+.footer__menu-list-item:last-child {
+  margin-bottom: 0;
 }
 
 .footer__menu-link {
