@@ -4,47 +4,11 @@
 Описание
 Верстка лендинга для аукциона необычных вещей по макету из Figma. Проект выполнен в рамках обучения на Яндекс Практикуме.
 
-Технологии
-HTML5
-
-CSS3
-
-Flexbox
-
-CSS Grid
-
-Методология БЭМ для именования классов
-
-Pixel Perfect верстка
-
-Структура проекта
-text
-ono-tebe-nado-ad/
-├── images/          # Изображения проекта
-│   ├── cover.jpg              # Фон главной секции
-│   ├── card-lot-01.jpg        # Карточка "Фильм"
-│   ├── card-lot-02.jpg        # Карточка "Книга"
-│   ├── card-lot-03.jpg        # Карточка "Картина"
-│   ├── logo-black.svg         # Логотип для шапки
-│   ├── logo-white.svg         # Логотип для секции "Об аукционе"
-│   ├── yt.svg                 # Иконка YouTube
-│   ├── vk.svg                 # Иконка ВКонтакте
-│   └── pinterest.svg          # Иконка Pinterest
-├── fonts/           # Шрифты
-│   ├── Raleway-Regular.woff   # Шрифт Raleway Regular
-│   ├── Raleway-Regular.woff2  # Шрифт Raleway Regular (woff2)
-│   ├── Raleway-Bold.woff      # Шрифт Raleway Bold
-│   ├── Raleway-Bold.woff2     # Шрифт Raleway Bold (woff2)
-│   └── fonts.css              # Подключение шрифтов
-├── styles/          # Стили
-│   ├── global.css   # Глобальные стили и сброс браузерных
-│   └── style.css    # Основные стили проекта
-├── index.html       # Главная страница
-└── README.md        # Документация проекта
+Документация проекта
 Особенности реализации
 Семантическая верстка с использованием HTML5 тегов
 
-Переиспользование CSS-классов (оверлей, адрес, карточки)
+Переиспользование CSS-классов 
 
 Адаптивная сетка на CSS Grid и Flexbox
 
@@ -80,7 +44,7 @@ git clone git@github.com:isafu8649-create/ono-tebe-nado.git
 Минимальная ширина экрана: 1100px
 
 Автор
-[Ваше Имя]
+Марихина Алевтина
 
 Ссылка на репозиторий
 git@github.com:isafu8649-create/ono-tebe-nado.git
