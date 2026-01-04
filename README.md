@@ -1,4 +1,5 @@
 Проектная работа: "Оно тебе надо"
 Аукцион вещей, в которые никто не верил
+
 Ссылка на репозиторий
-git@github.com:isafu8649-create/ono-tebe-nado.git
+https://github.com/isafu8649-create/ono-tebe-nado
